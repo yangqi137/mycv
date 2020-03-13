@@ -11,7 +11,7 @@
 %% merlin.mbs  (with options: `tail,annote,seq-no,nm-init,ed-au,nmlm,x5,m3,yr-par,xmth,tit-it,jttl-rm,vol-bf,vnum-x,volp-com,jpg-1,num-xser,jnm-x,xedn,jabr,and-xcom,nfss,,{}')
 %% ----------------------------------------
 %% ***  ***
-%% 
+%%
 %% Copyright 1994-2011 Patrick W Daly
  % ===============================================================
  % IMPORTANT NOTICE:
@@ -646,7 +646,7 @@ FUNCTION {format.names}
         {
           nameptr #3
           #1 + =
-          numnames #7
+          numnames #14
           > and
             { "others" 't :=
               #1 'namesleft := }
